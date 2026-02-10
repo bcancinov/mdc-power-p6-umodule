@@ -1,9 +1,10 @@
 # mdc-power-p6-umodule
-Modular Detector Controller Power 6V DC-DC uModule
+Modular Detector Controller Power 6V DC-DC uModule Mezzanine Module
 
 ## Overview
 12V input to 6V output DC-DC module, 3A nominal output, used as one of the `mdc-power-*` bias rails.
 Designed for 2.0 MHz sync operation.
+Mezzanine module.
 
 ## Power Stage
 - Controller: `LTM4653` (`U1`)
