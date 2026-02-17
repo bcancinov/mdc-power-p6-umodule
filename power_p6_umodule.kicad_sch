@@ -4847,6 +4847,12 @@
 		(uuid "0336ac9e-fb46-4c20-b24a-7bc1d13ea580")
 	)
 	(junction
+		(at 118.11 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04e791c0-4586-4d30-8f33-fa9d82a86903")
+	)
+	(junction
 		(at 184.15 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5315,12 +5321,6 @@
 		(uuid "cbc1f26a-bc76-4ce6-878a-e9191e5f011b")
 	)
 	(junction
-		(at 118.11 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cd7cc42b-ff36-4e47-a400-f029b2279f42")
-	)
-	(junction
 		(at 184.15 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5642,6 +5642,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 35.56) (xy 118.11 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14a78889-fb57-4752-880a-601494033f80")
+	)
+	(wire
+		(pts
 			(xy 184.15 76.2) (xy 184.15 78.74)
 		)
 		(stroke
@@ -5802,6 +5812,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 49.53) (xy 118.11 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c5bb6dd-decd-4a74-8531-204d37dd3586")
+	)
+	(wire
+		(pts
 			(xy 48.26 93.98) (xy 48.26 96.52)
 		)
 		(stroke
@@ -5819,6 +5839,16 @@
 			(type default)
 		)
 		(uuid "2e4fcdf1-40ea-4f67-ad2b-1634b7bee1f0")
+	)
+	(wire
+		(pts
+			(xy 113.03 46.99) (xy 113.03 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fa4183f-c048-461d-a2b0-4346f68399a4")
 	)
 	(wire
 		(pts
@@ -5899,6 +5929,16 @@
 			(type default)
 		)
 		(uuid "398eb5ad-6ef4-4dac-b586-feec17aed5d7")
+	)
+	(wire
+		(pts
+			(xy 118.11 44.45) (xy 118.11 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a839833-e307-4335-9181-802c7847230a")
 	)
 	(wire
 		(pts
@@ -5999,16 +6039,6 @@
 			(type default)
 		)
 		(uuid "45450ec8-ba2f-4268-bb27-476757e101c2")
-	)
-	(wire
-		(pts
-			(xy 118.11 41.91) (xy 118.11 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "456b32de-9f19-4a72-9f1b-4ef7a68c4899")
 	)
 	(wire
 		(pts
@@ -6232,6 +6262,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 39.37) (xy 127 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6574baf8-1c4f-44cb-8439-d6c9151a9f3e")
+	)
+	(wire
+		(pts
 			(xy 35.56 116.84) (xy 35.56 114.3)
 		)
 		(stroke
@@ -6252,7 +6292,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 41.91) (xy 127 41.91)
+			(xy 118.11 48.26) (xy 127 48.26)
 		)
 		(stroke
 			(width 0)
@@ -6509,6 +6549,16 @@
 			(type default)
 		)
 		(uuid "a0e42609-604f-40af-8e03-1dd466da953d")
+	)
+	(wire
+		(pts
+			(xy 113.03 41.91) (xy 113.03 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4e82464-5504-40cd-8b26-166eae9ff97f")
 	)
 	(wire
 		(pts
@@ -6852,7 +6902,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 41.91) (xy 127 40.64)
+			(xy 127 48.26) (xy 127 44.45)
 		)
 		(stroke
 			(width 0)
@@ -6942,6 +6992,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 39.37) (xy 118.11 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dda99e0a-f107-4fe4-a9a9-16f02549ca0f")
+	)
+	(wire
+		(pts
 			(xy 204.47 35.56) (xy 199.39 35.56)
 		)
 		(stroke
@@ -6969,6 +7029,16 @@
 			(type default)
 		)
 		(uuid "e1499cdc-a4ab-47c9-8612-0f202cb608cd")
+	)
+	(wire
+		(pts
+			(xy 113.03 48.26) (xy 118.11 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4210c16-c2b4-4033-9071-e81a6026f128")
 	)
 	(wire
 		(pts
@@ -7309,6 +7379,16 @@
 			(justify right bottom)
 		)
 		(uuid "3eb144fe-daa0-4e86-8369-b3ad9c85df92")
+	)
+	(label "cf1"
+		(at 113.03 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "54775152-6afd-478b-9b5d-4753db08d62d")
 	)
 	(label "ser"
 		(at 237.49 44.45 0)
@@ -7812,7 +7892,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 118.11 41.91 0)
+		(at 118.11 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7820,7 +7900,7 @@
 		(dnp no)
 		(uuid "1533c8a1-9fe1-409c-bbb8-1049e0e734d9")
 		(property "Reference" "#PWR06"
-			(at 118.11 48.26 0)
+			(at 118.11 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7829,7 +7909,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 120.396 45.466 0)
+			(at 120.396 53.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7837,7 +7917,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 41.91 0)
+			(at 118.11 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7846,7 +7926,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 41.91 0)
+			(at 118.11 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7855,7 +7935,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 118.11 41.91 0)
+			(at 118.11 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8848,6 +8928,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 113.03 38.1 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e5f3391-7ec7-44d3-b227-9807e8190805")
+		(property "Reference" "R8"
+			(at 111.506 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.5"
+			(at 111.506 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 113.03 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "500 mOhms ±1% 0.2W, 1/5W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Current Sense, Moisture Resistant Thick Film"
+			(at 113.03 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M" "Vishay"
+			(at 113.03 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RCWE0603R500FKEA"
+			(at 113.03 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "baac26b1-900c-4ef9-947e-8896ed59e2fa")
+		)
+		(pin "2"
+			(uuid "35b05db7-9bd1-49d2-bb4b-4019d78b863f")
+		)
+		(instances
+			(project "power_p6_umodule"
+				(path "/a7286713-eabb-4d2f-9bbd-1ac3d5069de1"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 237.49 52.07 0)
 		(mirror y)
@@ -9459,6 +9627,94 @@
 			(project "power_p6_umodule"
 				(path "/a7286713-eabb-4d2f-9bbd-1ac3d5069de1"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small_US")
+		(at 113.03 44.45 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c650c6b-290b-40e8-9e78-da39af5579a7")
+		(property "Reference" "C12"
+			(at 110.49 42.7481 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u"
+			(at 110.49 45.2881 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lib:T521X"
+			(at 113.03 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100 µF Molded Tantalum Polymer Capacitor 25 V 2917 (7343 Metric) 60mOhm @ 100kHz"
+			(at 113.03 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M" "Kemet"
+			(at 113.03 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "T521X107M025ATE060"
+			(at 113.03 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "173f3a6a-c92a-4199-8da0-7d15c8faeb3b")
+		)
+		(pin "2"
+			(uuid "8d4c0acc-c3e8-494a-af24-1333a97d5667")
+		)
+		(instances
+			(project "power_p6_umodule"
+				(path "/a7286713-eabb-4d2f-9bbd-1ac3d5069de1"
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -10774,7 +11030,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 118.11 38.1 0)
+		(at 118.11 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10782,7 +11038,7 @@
 		(dnp no)
 		(uuid "d33e4892-5703-4ef6-928a-c492250fd82a")
 		(property "Reference" "C1"
-			(at 120.142 36.83 0)
+			(at 120.142 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10791,7 +11047,7 @@
 			)
 		)
 		(property "Value" "4.7u"
-			(at 120.142 39.37 0)
+			(at 120.142 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10800,7 +11056,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 118.11 38.1 0)
+			(at 118.11 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10809,7 +11065,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 118.11 38.1 0)
+			(at 118.11 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10818,7 +11074,7 @@
 			)
 		)
 		(property "Description" "4.7 µF ±10% 80V Ceramic Capacitor X7R 1210 (3225 Metric)"
-			(at 118.11 38.1 0)
+			(at 118.11 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10827,7 +11083,7 @@
 			)
 		)
 		(property "M" "Murata"
-			(at 118.11 38.1 0)
+			(at 118.11 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10836,7 +11092,7 @@
 			)
 		)
 		(property "MPN" "GRM32ER71K475KE14L"
-			(at 118.11 38.1 0)
+			(at 118.11 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10861,7 +11117,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 127 38.1 0)
+		(at 127 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10869,7 +11125,7 @@
 		(dnp no)
 		(uuid "df5876af-4f0f-4877-acdc-ffc96fd38543")
 		(property "Reference" "C2"
-			(at 129.032 36.83 0)
+			(at 129.032 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10878,7 +11134,7 @@
 			)
 		)
 		(property "Value" "4.7u"
-			(at 129.032 39.37 0)
+			(at 129.032 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10887,7 +11143,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 127 38.1 0)
+			(at 127 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10896,7 +11152,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 38.1 0)
+			(at 127 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10905,7 +11161,7 @@
 			)
 		)
 		(property "Description" "4.7 µF ±10% 80V Ceramic Capacitor X7R 1210 (3225 Metric)"
-			(at 127 38.1 0)
+			(at 127 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10914,7 +11170,7 @@
 			)
 		)
 		(property "M" "Murata"
-			(at 127 38.1 0)
+			(at 127 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10923,7 +11179,7 @@
 			)
 		)
 		(property "MPN" "GRM32ER71K475KE14L"
-			(at 127 38.1 0)
+			(at 127 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
