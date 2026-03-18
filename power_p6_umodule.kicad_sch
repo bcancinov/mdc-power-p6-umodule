@@ -7222,7 +7222,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 170.18) (xy 158.75 167.64)
+			(xy 158.75 167.64) (xy 158.75 170.18)
 		)
 		(stroke
 			(width 0)
@@ -7509,16 +7509,6 @@
 			(justify left bottom)
 		)
 		(uuid "a98bba61-5bb0-4617-9bfa-8053ed3dbcba")
-	)
-	(label "iset2"
-		(at 158.75 168.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ac938e49-70f2-4b61-8404-41c436aff6da")
 	)
 	(label "VOUT_-16V"
 		(at 48.26 73.66 0)
@@ -8025,7 +8015,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 158.75 175.26 0)
+		(at 158.75 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8033,7 +8023,7 @@
 		(dnp no)
 		(uuid "1838b183-c8f1-47f2-88a7-71d867d9ee14")
 		(property "Reference" "#PWR027"
-			(at 158.75 181.61 0)
+			(at 158.75 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8042,7 +8032,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 155.702 178.308 0)
+			(at 155.702 173.228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8050,7 +8040,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 175.26 0)
+			(at 158.75 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8059,7 +8049,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 175.26 0)
+			(at 158.75 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8068,7 +8058,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 158.75 175.26 0)
+			(at 158.75 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10546,93 +10536,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 158.75 172.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ad81410d-de66-4ab2-b5a9-73f34da2f931")
-		(property "Reference" "R6"
-			(at 160.02 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2k"
-			(at 160.02 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 158.75 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 158.75 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2 kOhms ±1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
-			(at 158.75 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "M" "Vishay"
-			(at 158.75 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CRCW04022K00FKED"
-			(at 158.75 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "db8f7865-64f1-48b3-aadb-e0e3540f2363")
-		)
-		(pin "1"
-			(uuid "47fa24b5-c2c3-4dbf-8055-f3b63f9792f0")
-		)
-		(instances
-			(project "power_p6_umodule"
-				(path "/a7286713-eabb-4d2f-9bbd-1ac3d5069de1"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 135.89 66.04 270)
 		(unit 1)
@@ -11788,7 +11691,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "118k"
+		(property "Value" "120k"
 			(at 160.02 166.37 0)
 			(effects
 				(font
@@ -11815,7 +11718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "118 kOhms ±1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "120 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Anti-Sulfur Thin Film"
 			(at 158.75 165.1 0)
 			(effects
 				(font
@@ -11824,7 +11727,7 @@
 				(hide yes)
 			)
 		)
-		(property "M" "Vishay"
+		(property "M" "Yageo"
 			(at 158.75 165.1 0)
 			(effects
 				(font
@@ -11833,7 +11736,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CRCW0402118KFKED"
+		(property "MPN" "MCS04020C1203FE000"
 			(at 158.75 165.1 0)
 			(effects
 				(font
